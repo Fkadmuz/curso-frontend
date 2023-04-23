@@ -1,35 +1,13 @@
-## Criar conta no GitHub
-## Clonar o projeto
-git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
+## Flávio Belmiro
 
-## Commits
-Informação de alteração
+Designer gráfico / Web designer
 
-- após testado todo seu código
-- git add * git commit -m "mensagem" 
-- git push (enviar alterações para o repositório GitHub) 
-- git pull (puxar / trazer alterações do GitHub para sua máquina)
+Olá mundo 👋
 
-# GitFlow
-Fluxo do Git
+Meu nome é Flávio Belmiro, sou designer gráfico/web designer 🖥️
 
-## Branchs
-são ramificações / versões paralelas
+🦾 Trabalho no Colégio Anglo-Ameriano
+😊 Posso te ajudar com Wordpress, Edição de vídeos, Criação de identidade visual
+🖼️ Possso te colaborar com a parte de Front-end
+📭 Confira meu perfil no GitHub: [Flavio Henrique Dias Belmiro](https://www.linkedin.com/in/flaviohenriquedias/)
 
-- main / master (vai para produção, quando o projeto é publicado)
-develop
-- DOD Definition of Done: critérios de aceite
-- versionamento 1.0.0
-- git checkout -b dev (cria uma branch) 
-- git checkout master (mudar de branch)
-
-## Merge
-Mescla de branchs Você pode precisar resolver conflitos manualmente
-
-- git merge main
-
-## Pull Requests
-Mescla de branchs no repositório Permite code review O respositório resolve os conflitos automaticamente
-
-## configura o GitFlow
-- git flow init git flow feature start {nome-da-feature}
