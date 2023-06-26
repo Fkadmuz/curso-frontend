@@ -103,7 +103,6 @@ function validaEmail(elemento){
     });
 
 }
-
 function validaUf(elemento){
 
     elemento.addEventListener('focusout', function(event) {
@@ -126,14 +125,11 @@ function validaUf(elemento){
 
 }
 
-
-
-
-
 let camposObrigatorios = document.querySelectorAll('input.obrigatorio');
 let camposNumericos = document.querySelectorAll('input.numerico');
 let camposEmail = document.querySelectorAll('input.email');
 let camposUf = document.querySelectorAll('input.uf');
+
 
 for( let emFoco of camposObrigatorios) {
     validaCampo(emFoco);
@@ -147,7 +143,6 @@ for( let emFoco of camposEmail) {
     validaEmail(emFoco);
 }
 
-
 for( let emFoco of camposUf) {
-    validaEmail(emFoco);
-}
+    validaUf(emFoco);
+}   
